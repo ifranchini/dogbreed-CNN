@@ -26,6 +26,12 @@ Outlined below are the high level steps I used. Important to remark that PyTorch
         - Apply model in order to predict dog breed or human-dog resemblance
         - If no faces or dogs found in image, do nothing
 
+## Results
+
+After playing around with the model this is what I obtained with a couple sample images
+
+![Results](result/resultsCNN.png)
+
 ## Tools 
 
 For this project I used an [AWS Deep Learning AMI (Ubuntu 18.04)](https://aws.amazon.com/marketplace/pp/Amazon-Web-Services-AWS-Deep-Learning-AMI-Ubuntu-1/B07Y43P7X5). I highly recommend using [VS Code](https://code.visualstudio.com/) and remote-SSH into your instance (Make sure you have a security group that allows port 22 from your IP). I worked in `pytorch_latest_p37` virtual env that comes with the forementioned instance, which already contains the libs `open-cv` and `pytorch`
